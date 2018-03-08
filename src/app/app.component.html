@@ -1,0 +1,30 @@
+
+<div class="container">
+  <h2>Angular-D3 Component</h2>
+  <h3>Line Chart</h3>
+  <div class="chart">
+    <svg id="visualisation"></svg>
+  </div>
+  <br><br><hr>
+  <div class="row">
+  	<label for="highAl"> Add HightAlert</label>
+	  <input type="number" id="highAl" />
+	  <label for="lowAl"> Add LowAlert</label>
+	  <input type="number" id="lowAl" />
+	  <button class="btn btn-primary" (click)="getAlert($event)">Get Alert Points</button>
+  </div>
+  <br><br><hr>
+  <div class="row">
+  	<label for="addPt"> Add This Point</label>
+	  <input type="number" id="addPt" />
+	  <button class="btn btn-primary" (click)="addPoint($event)">Add This Point</button>
+  </div>
+  <br><br><hr>
+  <div class="row">
+  	<label for="selPt"> Remove This Point</label>
+	  <input type="number" id="selPt" />
+	  <button class="btn btn-primary" (click)="removePoint($event)">Remvoe This Point (X-coordinate)</button>
+  </div>
+  <hr>
+  <button class="btn btn-primary" (click)="hideChart($event)">Remove chart</button>
+</div>

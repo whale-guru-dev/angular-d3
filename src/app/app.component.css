@@ -1,0 +1,31 @@
+.axis path {
+    fill: none;
+    stroke: #0047ba;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: Lato;
+    font-size: 13px;
+}
+
+.chart {
+    border: 3px solid #0047ba;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.line {
+    fill: none;
+    stroke: #0047ba;
+    stroke-width: 5px;
+ }
+
+ svg {
+     height: 500px;
+     width: 900px;
+ }
+
+ .btn-primary {
+     float: right;
+     margin-top: 30px;
+ }
